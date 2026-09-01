@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review basic page accessibility | Spiral Max SEO Test Lab</title>
+<meta name="description" content="Check headings, keyboard navigation, link labels, focus visibility, and form instructions as part of a small page review.">
+<meta name="robots" content="index, follow">
+<meta name="lab-page-purpose" content="guide">
+<link rel="canonical" href="https://seo-test-lab.pages.dev/guides/accessibility/">
+<meta name="google-site-verification" content="7MXzKAPzVwC4ldMxBNGhhWWneZ46IDXw_wlEbKRPGIg">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="disclosure"><p>Demonstration / test project. Educational examples only; no commercial services or customer claims.</p></div>
+<header class="site-header"><a class="wordmark" href="/" aria-label="Spiral Max SEO Test Lab home"><span class="mark" aria-hidden="true">S</span><span>Spiral Max<span class="wordmark-detail">SEO Test Lab</span></span></a>
+<nav aria-label="Primary navigation"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/exercises/">Exercises</a><a href="/glossary/">Glossary</a><a href="/about/">About</a><a href="/privacy/">Privacy</a></nav></header>
+<main id="main-content"><article>
+<p class="eyebrow">Guide</p>
+<h1>Make a page easier to operate</h1>
+<section><p>A page is easier to use when its structure and controls communicate their purpose. Start with headings that describe the sections beneath them. Use real links for navigation and real buttons for actions. Consistent semantics help browsers and assistive technologies present the interface in useful ways.</p><p>Move through the page using a keyboard. You should be able to see which control has focus, activate links and buttons, and reach the main content without traversing every repeated navigation item. A visible skip link can make that last step easier. Do not remove focus outlines unless an equally clear replacement is provided.</p></section>
+<section><h2>Check instructions and feedback</h2><p>A checkbox needs an associated label, not merely text placed nearby. A group of related controls benefits from a shared explanation. When an action becomes available only after prerequisites are complete, explain the prerequisites and make the resulting status understandable without relying on colour alone.</p><p>Try the layout with a narrow viewport and larger text. Long labels should wrap, content should remain readable, and controls should not disappear behind clipped containers. These checks can find common problems, but a short checklist is not a complete accessibility audit or a claim of compliance with a particular standard.</p></section>
+<section><h2>Include people in evaluation</h2><p>Automated tools can inspect markup and detect some contrast or naming issues. They cannot fully determine whether instructions make sense or whether a task is practical for a particular reader. Combine deterministic checks with informed manual review, and record which checks were actually performed.</p></section>
+
+</article>
+<aside class="related" aria-label="Explore further"><h2>Explore further</h2><ul><li><a href="/exercises/">Try a labelled checklist with keyboard controls</a></li></ul></aside>
+</main>
+<footer><p>A small educational demonstration for studying how web pages are discovered, described, and reviewed.</p>
+<p>Some pages contain deliberately imperfect examples. Observations here are not evidence of commercial SEO results.</p>
+<nav aria-label="Footer navigation"><a href="/about/">About the project</a><a href="/privacy/">Privacy and test analytics</a><a href="/exercises/">Practice exercise</a></nav>
+<div class="analytics" aria-labelledby="analytics-heading"><h2 id="analytics-heading">Test analytics</h2>
+<p id="analytics-status" role="status">Analytics is not configured for this deployment. No test analytics events are sent.</p><div class="button-row"></div></div>
+</footer>
+</body>
+</html>

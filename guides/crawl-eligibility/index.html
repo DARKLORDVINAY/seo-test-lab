@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Check a page&#x27;s indexing eligibility | Spiral Max SEO Test Lab</title>
+<meta name="description" content="Use a page-level checklist to compare HTTP availability, crawl permission, indexing directives, and the publisher&#x27;s intended audience.">
+<meta name="robots" content="noindex, follow">
+<meta name="lab-page-purpose" content="guide">
+<link rel="canonical" href="https://seo-test-lab.pages.dev/guides/crawl-eligibility/">
+<meta name="google-site-verification" content="7MXzKAPzVwC4ldMxBNGhhWWneZ46IDXw_wlEbKRPGIg">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="disclosure"><p>Demonstration / test project. Educational examples only; no commercial services or customer claims.</p></div>
+<header class="site-header"><a class="wordmark" href="/" aria-label="Spiral Max SEO Test Lab home"><span class="mark" aria-hidden="true">S</span><span>Spiral Max<span class="wordmark-detail">SEO Test Lab</span></span></a>
+<nav aria-label="Primary navigation"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/exercises/">Exercises</a><a href="/glossary/">Glossary</a><a href="/about/">About</a><a href="/privacy/">Privacy</a></nav></header>
+<main id="main-content"><article>
+<p class="eyebrow">Guide</p>
+<h1>Check permission before inferring inclusion</h1>
+<section><p>An eligibility check asks whether the observed technical signals permit a page to be considered for indexing. It is a narrower question than whether a search engine has indexed the page. Keeping that boundary clear prevents an ordinary crawl from being reported as an authoritative index inspection.</p><p>Begin with the exact requested URL. Record the final address after any redirects, the response status, and the time of the request. A missing page and a successful page containing a noindex instruction require different explanations. Check the applicable robots.txt rules, but do not assume that a rule granting access also requests inclusion in search.</p></section>
+<section><h2>Compare signals with intent</h2><ul><li>Identify the intended audience and whether the publisher wants search discovery.</li><li>Inspect page-level meta directives and relevant response headers.</li><li>Record the declared canonical target and confirm the target&#x27;s purpose.</li><li>Look for staging settings that may have reached the public release.</li><li>Use verified property data separately when actual index status is needed.</li></ul></section>
+<section><h2>Choose a proportionate next step</h2><p>If a directive conflicts with the intended role, prepare a narrow proposal that states both the observation and the evidence of intent. Avoid changing broad site rules simply because one public page appears excluded. If intent is uncertain, retain the observation and ask for authoritative clarification before making a change. A page can be technically eligible and still provide too little value to deserve an edit aimed at attracting more visitors.</p></section>
+
+</article>
+
+</main>
+<footer><p>A small educational demonstration for studying how web pages are discovered, described, and reviewed.</p>
+<p>Some pages contain deliberately imperfect examples. Observations here are not evidence of commercial SEO results.</p>
+<nav aria-label="Footer navigation"><a href="/about/">About the project</a><a href="/privacy/">Privacy and test analytics</a><a href="/exercises/">Practice exercise</a></nav>
+<div class="analytics" aria-labelledby="analytics-heading"><h2 id="analytics-heading">Test analytics</h2>
+<p id="analytics-status" role="status">Analytics is not configured for this deployment. No test analytics events are sent.</p><div class="button-row"></div></div>
+</footer>
+</body>
+</html>
