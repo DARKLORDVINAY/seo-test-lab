@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Response header reading notes | Spiral Max SEO Test Lab</title>
+<meta name="description" content="A compact reference for recording response headers, distinguishing them from HTML content, and preserving the context of an HTTP observation.">
+<meta name="robots" content="index, follow">
+<meta name="lab-page-purpose" content="reference">
+<link rel="canonical" href="https://seo-test-lab.pages.dev/reference/response-headers/">
+<meta name="google-site-verification" content="7MXzKAPzVwC4ldMxBNGhhWWneZ46IDXw_wlEbKRPGIg">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="disclosure"><p>Demonstration / test project. Educational examples only; no commercial services or customer claims.</p></div>
+<header class="site-header"><a class="wordmark" href="/" aria-label="Spiral Max SEO Test Lab home"><span class="mark" aria-hidden="true">S</span><span>Spiral Max<span class="wordmark-detail">SEO Test Lab</span></span></a>
+<nav aria-label="Primary navigation"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/exercises/">Exercises</a><a href="/glossary/">Glossary</a><a href="/about/">About</a><a href="/privacy/">Privacy</a></nav></header>
+<main id="main-content"><article>
+<p class="eyebrow">Reference</p>
+<h1>Read the response around the document</h1>
+<section><p>HTTP response headers accompany a resource but are not part of the page&#x27;s visible prose. They can describe the content type, cache handling, and other behaviour. A browser&#x27;s network panel or an HTTP client can show these fields alongside the response status and body.</p><p>Record the exact request address and any redirects before interpreting a header. A redirect response and the final document may contain different fields. A cached response may also differ from a fresh request. Without that context, two observations can appear contradictory even when each accurately describes a different response.</p></section>
+<section><h2>Keep evidence small and useful</h2><p>Store the fields relevant to the question being investigated rather than copying every byte into an agent prompt. Avoid retaining authentication material or unrelated personal data. Separate the observed value from the conclusion you draw from it, and attach the observation time and source URL.</p><p>Header names are case-insensitive, so a comparison should not treat capitalisation alone as a behavioural difference. Repeated fields need careful handling because their meaning depends on the particular header. Use a maintained HTTP parser instead of inventing a general splitting rule for every field.</p></section>
+<section><h2>Compare with the rendered page</h2><p>A response can be technically successful while its document is unhelpful, and a visually friendly error page can still carry a missing-resource status. Review the response and the rendered experience together when deciding whether a link or page behaviour needs attention.</p></section>
+
+</article>
+
+</main>
+<footer><p>A small educational demonstration for studying how web pages are discovered, described, and reviewed.</p>
+<p>Some pages contain deliberately imperfect examples. Observations here are not evidence of commercial SEO results.</p>
+<nav aria-label="Footer navigation"><a href="/about/">About the project</a><a href="/privacy/">Privacy and test analytics</a><a href="/exercises/">Practice exercise</a></nav>
+<div class="analytics" aria-labelledby="analytics-heading"><h2 id="analytics-heading">Test analytics</h2>
+<p id="analytics-status" role="status">Analytics is not configured for this deployment. No test analytics events are sent.</p><div class="button-row"></div></div>
+</footer>
+</body>
+</html>

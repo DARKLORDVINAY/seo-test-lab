@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Read response status codes | Spiral Max SEO Test Lab</title>
+<meta name="description" content="Distinguish an available page, a redirect, and a missing destination by observing the server response rather than its appearance alone.">
+<meta name="robots" content="index, follow">
+<meta name="lab-page-purpose" content="guide">
+<link rel="canonical" href="https://seo-test-lab.pages.dev/guides/status-codes/">
+<meta name="google-site-verification" content="7MXzKAPzVwC4ldMxBNGhhWWneZ46IDXw_wlEbKRPGIg">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="disclosure"><p>Demonstration / test project. Educational examples only; no commercial services or customer claims.</p></div>
+<header class="site-header"><a class="wordmark" href="/" aria-label="Spiral Max SEO Test Lab home"><span class="mark" aria-hidden="true">S</span><span>Spiral Max<span class="wordmark-detail">SEO Test Lab</span></span></a>
+<nav aria-label="Primary navigation"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/exercises/">Exercises</a><a href="/glossary/">Glossary</a><a href="/about/">About</a><a href="/privacy/">Privacy</a></nav></header>
+<main id="main-content"><article>
+<p class="eyebrow">Guide</p>
+<h1>A page&#x27;s response is part of its behaviour</h1>
+<section><p>A browser asks a server for a resource, and the server returns a response status with the content. A successful response commonly uses 200. A missing resource commonly uses 404. A redirect uses a redirect status and a destination. These observations describe what happened during one request; they are not a complete explanation of why it happened.</p><p>A friendly error screen can be helpful, but its appearance does not prove the server sent the correct status. If a nonexistent address returns a normal success response containing an error message, a crawler may receive a misleading signal. Check the response directly as well as looking at the rendered page.</p></section>
+<section><h2>Investigate a failed destination</h2><p>Record the source page, the link label, the requested address, and the observed status. Retry cautiously if the failure may be transient. If the address is genuinely obsolete, identify the intended replacement from site knowledge rather than guessing that every missing page should lead to the home page.</p><p>A useful repair may be to update a link, restore an accidentally removed resource, or explain that the information is no longer available. Redirecting an unrelated page can frustrate readers. Preserve the reason for the change so someone reviewing it later can understand the intended connection.</p></section>
+<section><h2>Try a response check</h2><p>The example destination below lets you compare the address you requested with the response you receive. Use browser developer tools or an HTTP client to inspect it. The site deliberately includes imperfect examples, so treat the result as an observation to record.</p></section>
+
+</article>
+<aside class="related" aria-label="Explore further"><h2>Explore further</h2><ul><li><a href="/reference/missing-response-example/">Open the response-code example</a></li></ul></aside>
+</main>
+<footer><p>A small educational demonstration for studying how web pages are discovered, described, and reviewed.</p>
+<p>Some pages contain deliberately imperfect examples. Observations here are not evidence of commercial SEO results.</p>
+<nav aria-label="Footer navigation"><a href="/about/">About the project</a><a href="/privacy/">Privacy and test analytics</a><a href="/exercises/">Practice exercise</a></nav>
+<div class="analytics" aria-labelledby="analytics-heading"><h2 id="analytics-heading">Test analytics</h2>
+<p id="analytics-status" role="status">Analytics is not configured for this deployment. No test analytics events are sent.</p><div class="button-row"></div></div>
+</footer>
+</body>
+</html>

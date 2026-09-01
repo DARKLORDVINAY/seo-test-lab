@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "base_url": "https://seo-test-lab.pages.dev",
+  "pages": [
+    {
+      "path": "/",
+      "content_sha256": "b94c8c428f6b45ebf8a3a637a72c47dcdfd5fe882ca8ac210c657429867870f8",
+      "desired_indexing": "index",
+      "purpose": "home"
+    },
+    {
+      "path": "/about/",
+      "content_sha256": "502fa6436fe33a09c321df36f47b9f4608ce72344a55a1699ed2a76e7582d084",
+      "desired_indexing": "index",
+      "purpose": "utility"
+    },
+    {
+      "path": "/guides/",
+      "content_sha256": "c1d5f9b2c3b0efdf785e43681fc22787608961255a6d89cce3cbe545afdef717",
+      "desired_indexing": "index",
+      "purpose": "hub"
+    },
+    {
+      "path": "/guides/descriptive-titles/",
+      "content_sha256": "62dba44997e8eda9e3aad255b82418654c2dcc26b928d5671633816f0d13bf41",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/useful-summaries/",
+      "content_sha256": "7e35b452ba063d80bcd64f9c806c8e52fff49afc799b3229164fbedee41dcc0d",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/internal-links/",
+      "content_sha256": "a0abdb3fcd74b4214bbba48a85fa7e4b6306dd4f9971a0ed98299c5f598ca639",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/status-codes/",
+      "content_sha256": "77844ee15cd85761ba4bce99e624113a255c03658ba69a9d8cb72629b5c9c97f",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/canonical-urls/",
+      "content_sha256": "71c9ada36c2792ba883ff53667f26a1dcf15252cba18bb017fadc5266c2b115e",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/crawl-directives/",
+      "content_sha256": "63c858a8e2c2a56932699c74781766a571a4e92ef442188c9c165f39d891546b",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/sitemaps/",
+      "content_sha256": "655e6494d3ee7f6420954ee0740745d8ad4a409f8f36150eeafe68c0d650614a",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/accessibility/",
+      "content_sha256": "129c8a219c56ed9e6f0ad03c912f6ad913a8a55c90abc4e4d918c672cee721cc",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/page-checklist/",
+      "content_sha256": "4b57fa29e1d36a903cd82f10e5691325dc431b3b4191e1943fa1b97d30e1d60d",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/preflight-checklist/",
+      "content_sha256": "dc16f9a8364cc698fc909439222e2142d79085ef74ec81df9e7d9c7d1f0133fb",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/linked-resources/",
+      "content_sha256": "63ff9a9cba80f65b01ad3055b26c7877446b5240c72bd509eab95c2fb6315d01",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/url-preferences/",
+      "content_sha256": "dd4bc0d313c51b971702e33bb2fa05c09f8a8c69ec6561e8d57df5f7212dd88b",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/guides/crawl-eligibility/",
+      "content_sha256": "b8d72d532daaad40ad02e031d12733a0658207cd3bf013abbe6a274bb9885127",
+      "desired_indexing": "index",
+      "purpose": "guide"
+    },
+    {
+      "path": "/notes/navigation-draft/",
+      "content_sha256": "01842733e95ec7ae1c1b0b1a210184cc62fcb81123a4f41cb61ec25a3b4fa2a7",
+      "desired_indexing": "index",
+      "purpose": "note"
+    },
+    {
+      "path": "/notes/metadata-draft/",
+      "content_sha256": "a962e01ee6cc08bf68351bdd24bc46d9f1e876fd9edd8efbdc5f846459524710",
+      "desired_indexing": "index",
+      "purpose": "note"
+    },
+    {
+      "path": "/exercises/title-review/",
+      "content_sha256": "7d649c06e09bc2cc1c5fbe05123dc8810aafd1b565981918b1066379f460e10d",
+      "desired_indexing": "index",
+      "purpose": "exercise"
+    },
+    {
+      "path": "/exercises/title-audit/",
+      "content_sha256": "2a42cb3e87b1148b4b1f636d7024079877e2080b23d457f9ef4d804a825ac243",
+      "desired_indexing": "index",
+      "purpose": "exercise"
+    },
+    {
+      "path": "/exercises/",
+      "content_sha256": "1fe50589b8bdc88f61849bac49a09ffa27805019cc806f7468c5271e494ccc4c",
+      "desired_indexing": "index",
+      "purpose": "exercise"
+    },
+    {
+      "path": "/reference/response-headers/",
+      "content_sha256": "756505a3953394132d3de8707623ed1cec0a435cd9976e843070ba5cc2d45501",
+      "desired_indexing": "index",
+      "purpose": "reference"
+    },
+    {
+      "path": "/reference/link-labels/",
+      "content_sha256": "56ed78d46e9740de053ae057ba377812c7f80a54a8aea869940186f4aa956c79",
+      "desired_indexing": "index",
+      "purpose": "reference"
+    },
+    {
+      "path": "/glossary/",
+      "content_sha256": "06a02fb5429e437bd773d87bf7ec62fbfb1b1225d9245cb9d8c0aa317074ef0b",
+      "desired_indexing": "index",
+      "purpose": "reference"
+    },
+    {
+      "path": "/privacy/",
+      "content_sha256": "823f999313d171460a205511cb35aee17645d06a2f784eb3e8c9a2153dcd7e17",
+      "desired_indexing": "index",
+      "purpose": "utility"
+    },
+    {
+      "path": "/release-notes/",
+      "content_sha256": "8dafacc76dd02b0833a28973da827b4cc5e97fa0dd7f4a2995b8fa56177a1b2e",
+      "desired_indexing": "index",
+      "purpose": "reference"
+    }
+  ]
+}

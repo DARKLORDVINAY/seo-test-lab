@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inspect a small XML sitemap | Spiral Max SEO Test Lab</title>
+<meta name="description" content="Compare sitemap addresses with a release inventory and internal navigation without treating a sitemap as proof of indexing or a complete page list.">
+<meta name="robots" content="index, follow">
+<meta name="lab-page-purpose" content="guide">
+<link rel="canonical" href="https://seo-test-lab.pages.dev/guides/sitemaps/">
+<meta name="google-site-verification" content="7MXzKAPzVwC4ldMxBNGhhWWneZ46IDXw_wlEbKRPGIg">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="disclosure"><p>Demonstration / test project. Educational examples only; no commercial services or customer claims.</p></div>
+<header class="site-header"><a class="wordmark" href="/" aria-label="Spiral Max SEO Test Lab home"><span class="mark" aria-hidden="true">S</span><span>Spiral Max<span class="wordmark-detail">SEO Test Lab</span></span></a>
+<nav aria-label="Primary navigation"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/exercises/">Exercises</a><a href="/glossary/">Glossary</a><a href="/about/">About</a><a href="/privacy/">Privacy</a></nav></header>
+<main id="main-content"><article>
+<p class="eyebrow">Guide</p>
+<h1>A sitemap is a useful list, with limits</h1>
+<section><p>An XML sitemap lists addresses that a publisher wants a crawler to discover. It can help expose pages that are difficult to reach through ordinary links, but it does not replace useful navigation. Listing an address does not guarantee that a search engine will crawl or index it.</p><p>For a small static site, compare three views: the files in a trusted release inventory, the addresses in the sitemap, and the destinations reachable through internal HTML links. Disagreements can reveal an omitted page, an outdated address, or a page with no incoming navigation. They can also reflect an intentional choice, so record the intended indexing role.</p></section>
+<section><h2>Make a careful comparison</h2><ul><li>Check that each listed address uses the intended HTTPS origin.</li><li>Request listed destinations and inspect their response statuses.</li><li>Compare the list with index-eligible release pages.</li><li>Review unexpected omissions in the context of page purpose.</li><li>Keep an observation timestamp and the exact list used for the comparison.</li></ul></section>
+<section><h2>Recognise incomplete evidence</h2><p>A crawl that stops at a page limit cannot establish that every page has been seen. Likewise, a sitemap can be incomplete or stale. To call a page orphaned, you need a sufficiently complete inventory and link graph rather than merely failing to discover it on a short crawl. Be explicit when coverage is unknown, and avoid reporting a confident absence from an incomplete sample.</p></section>
+
+</article>
+<aside class="related" aria-label="Explore further"><h2>Explore further</h2><ul><li><a href="/guides/internal-links/">Review the internal navigation alongside the sitemap</a></li></ul></aside>
+</main>
+<footer><p>A small educational demonstration for studying how web pages are discovered, described, and reviewed.</p>
+<p>Some pages contain deliberately imperfect examples. Observations here are not evidence of commercial SEO results.</p>
+<nav aria-label="Footer navigation"><a href="/about/">About the project</a><a href="/privacy/">Privacy and test analytics</a><a href="/exercises/">Practice exercise</a></nav>
+<div class="analytics" aria-labelledby="analytics-heading"><h2 id="analytics-heading">Test analytics</h2>
+<p id="analytics-status" role="status">Analytics is not configured for this deployment. No test analytics events are sent.</p><div class="button-row"></div></div>
+</footer>
+</body>
+</html>

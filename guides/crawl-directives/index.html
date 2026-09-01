@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Distinguish crawling from indexing | Spiral Max SEO Test Lab</title>
+<meta name="description" content="Understand the different jobs of robots.txt and page-level indexing directives, including why permission is not proof of inclusion in search.">
+<meta name="robots" content="index, follow">
+<meta name="lab-page-purpose" content="guide">
+<link rel="canonical" href="https://seo-test-lab.pages.dev/guides/crawl-directives/">
+<meta name="google-site-verification" content="7MXzKAPzVwC4ldMxBNGhhWWneZ46IDXw_wlEbKRPGIg">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="disclosure"><p>Demonstration / test project. Educational examples only; no commercial services or customer claims.</p></div>
+<header class="site-header"><a class="wordmark" href="/" aria-label="Spiral Max SEO Test Lab home"><span class="mark" aria-hidden="true">S</span><span>Spiral Max<span class="wordmark-detail">SEO Test Lab</span></span></a>
+<nav aria-label="Primary navigation"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/exercises/">Exercises</a><a href="/glossary/">Glossary</a><a href="/about/">About</a><a href="/privacy/">Privacy</a></nav></header>
+<main id="main-content"><article>
+<p class="eyebrow">Guide</p>
+<h1>Access and inclusion are different questions</h1>
+<section><p>Crawling is the process of requesting and reading resources. Indexing is a search engine&#x27;s decision about storing and using information in its search system. Permission to crawl does not guarantee indexing, and a page that appears accessible in a browser may still carry a directive asking search engines not to index it.</p><p>A robots.txt file describes crawling rules for cooperating crawlers. A page-level robots meta tag can communicate instructions such as noindex. These mechanisms operate at different points. If a crawler cannot retrieve a page, it may be unable to observe a directive contained inside that page.</p></section>
+<section><h2>Inspect the whole response</h2><p>Check the response status, relevant headers, HTML directives, and robots.txt rules together. Also record the page&#x27;s intended role. An account screen, internal search result, or temporary preview may intentionally be excluded. A public guide intended to be discoverable may have inherited a directive from a staging environment.</p><p>Do not infer actual search inclusion from a successful HTTP response or an index-permitting tag. Those observations establish eligibility signals, not the state of a search engine&#x27;s index. A verified inspection result from the relevant search property supplies different evidence and can still have its own observation time and limitations.</p></section>
+<section><h2>Avoid broad fixes</h2><p>Changing a site-wide rule to repair one page can expose many unrelated addresses. Prefer identifying the narrow source of a directive, explaining the intended audience, and preparing a reversible change. Keep production permissions separate from the evidence-gathering step.</p></section>
+
+</article>
+<aside class="related" aria-label="Explore further"><h2>Explore further</h2><ul><li><a href="/guides/crawl-eligibility/">Use a page-level eligibility checklist</a></li></ul></aside>
+</main>
+<footer><p>A small educational demonstration for studying how web pages are discovered, described, and reviewed.</p>
+<p>Some pages contain deliberately imperfect examples. Observations here are not evidence of commercial SEO results.</p>
+<nav aria-label="Footer navigation"><a href="/about/">About the project</a><a href="/privacy/">Privacy and test analytics</a><a href="/exercises/">Practice exercise</a></nav>
+<div class="analytics" aria-labelledby="analytics-heading"><h2 id="analytics-heading">Test analytics</h2>
+<p id="analytics-status" role="status">Analytics is not configured for this deployment. No test analytics events are sent.</p><div class="button-row"></div></div>
+</footer>
+</body>
+</html>
